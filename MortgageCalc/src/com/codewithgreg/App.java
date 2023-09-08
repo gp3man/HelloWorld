@@ -1,3 +1,4 @@
+package com.codewithgreg;
 import java.text.NumberFormat;
 
 
@@ -11,5 +12,4 @@ public class App {
         new MortgageReport(calculator).printMortgage(currency);
         new MortgageReport(calculator).printPaymentSchedule();
     }
-
 }
